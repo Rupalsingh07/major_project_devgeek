@@ -1,0 +1,24 @@
+<div class="card border-primary mb-3" style="width: 18rem;">
+    <img style="height: 120px;" class="card-img-top" src="../../../../assets/i7.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h3 class="card-title">{{name}}</h3>
+      <p class="card-text">{{description}}</p>
+      <div class="card-detail-container">
+
+        <div class="owner-detail">
+            <div class="owner-name"><strong>Owner:</strong></div>
+            <div class="owner-name-value">Pragya</div>
+        </div>
+
+        <div class="ending-detail">
+            <div class="end-date"><strong>Date:</strong> </div>
+            <div class="end-date-value"><h3>{{end_date}}</h3></div>
+        </div>
+
+        <div>
+            <div class="details-btn-container"><button type="button" class="btn btn-warning" (click)="details()">Details</button></div>
+        </div>
+
+      </div>
+    </div>
+</div>
